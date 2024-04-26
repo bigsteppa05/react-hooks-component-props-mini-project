@@ -6,7 +6,7 @@ function ArticleList({ posts }) {
     <main>
       {posts.map((post, index) => (
         <Article
-          key={index} // Assigning a unique key attribute to each Article
+          key={index} 
           title={post.title}
           date={post.date}
           preview={post.preview}
